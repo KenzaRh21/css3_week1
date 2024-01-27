@@ -24,6 +24,8 @@ body, h1, p {
   /* Style the navigation */
   nav {
     background-color: #a9e3c1;
+    display: inline-block;
+    width: 80%;
   }
   
   nav ul {
@@ -32,12 +34,16 @@ body, h1, p {
     margin: 0;
     text-align: center;
   }
-  
+  /*
   nav li {
     display: inline-block;
     margin-right: 20px;
   }
+  */
   
+  nav img {
+    width: 10%;
+  }
   nav a {
     text-decoration: none;
     color: #fff;
@@ -87,5 +93,16 @@ body, h1, p {
   p {
     margin-bottom: 15px;
   }
-  
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
